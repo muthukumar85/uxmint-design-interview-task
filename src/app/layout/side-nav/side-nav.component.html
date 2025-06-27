@@ -1,0 +1,13 @@
+<div class="w-64 h-screen bg-gray-800 text-white border-r shadow-md flex flex-col p-4">
+  <img [src]="logo" class="h-10 mb-8" alt="Logo" />
+
+  <nav class="flex-1 space-y-4">
+    <a routerLink="/dashboard" class="block text-gray-300 hover:text-white font-medium">Dashboard</a>
+    <a routerLink="/profile" class="block text-gray-300 hover:text-white font-medium">Profile</a>
+    <a routerLink="/reports" class="block text-gray-300 hover:text-white font-medium">Reports</a>
+    <a routerLink="/settings" class="block text-gray-300 hover:text-white font-medium">Settings</a>
+  </nav>
+
+  <button (click)="onLogout()" class="text-red-400 mt-auto hover:underline">Logout</button>
+</div>
+

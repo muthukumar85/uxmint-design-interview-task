@@ -1,0 +1,10 @@
+<nav class="w-full bg-white shadow-md p-4 flex justify-between items-center">
+  <div class="flex items-center space-x-4">
+    <img src="{{logo}}" class="h-8" alt="Logo">
+    <a routerLink="/dashboard" class="text-gray-700 hover:text-blue-600 font-medium">Dashboard</a>
+    <a routerLink="/dashboard" class="text-gray-700 hover:text-blue-600 font-medium">Profile</a>
+    <a routerLink="/dashboard" class="text-gray-700 hover:text-blue-600 font-medium">Reports</a>
+    <a routerLink="/dashboard" class="text-gray-700 hover:text-blue-600 font-medium">Settings</a>
+  </div>
+  <button (click)="onLogout()" class="text-red-600 hover:underline">Logout</button>
+</nav>

@@ -1,0 +1,19 @@
+[
+  {
+    "subdomain": "tenant1",
+    "theme": {
+      "primary": "#1d4ed8",
+      "secondary": "#9333ea",
+      "logo":"https://thumbs.dreamstime.com/b/initial-letter-j-logo-company-name-simple-modern-logotype-design-business-identity-263445207.jpg"
+    },
+    "layout": "side"
+  },
+  {
+    "subdomain": "tenant2",
+    "theme": {
+      "primary": "#16a34a",
+      "secondary": "#f59e0b",
+          "logo":"https://static.vecteezy.com/system/resources/previews/019/514/619/non_2x/initial-letter-s-logo-company-name-simple-and-modern-logotype-design-for-business-and-company-identity-free-vector.jpg"},
+    "layout": "top"
+  }
+]
