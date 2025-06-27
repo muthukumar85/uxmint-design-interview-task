@@ -1,0 +1,27 @@
+{
+  "tenant1": {
+    "layout": "sidebar",
+    "primaryColor": "#1D4ED8",
+    "secondaryColor": "#FBBF24",
+    "features": [
+      { "name": "Add Services", "flag": true },
+  { "name": "View Reports", "flag": true },
+  { "name": "Manage User", "flag": true },
+  { "name": "Assign Roles", "flag": true },
+  { "name": "Approve Requests", "flag": true }
+     
+    ]
+  },
+  "tenant2": {
+    "layout": "topnav",
+    "primaryColor": "#059669",
+    "secondaryColor": "#F43F5E",
+    "features": [
+      { "name": "Upload Documents", "flag": true },
+  { "name": "Generate Invoice", "flag": true },
+  { "name": "Send Notification", "flag": true },
+  { "name": "Track Attendances", "flag": true },
+  { "name": "Access Setting", "flag": true }
+    ]
+  }
+}
